@@ -108,6 +108,8 @@ elif mathtype == "-" and number == "5":
     fifth_number = float(input("Enter fifth number: "))
     answer = first_number - second_number - third_number - fourth_number - fifth_number
     print(answer)
+elif number == "1":
+    print('No.')
 else:
     print("That is not a valid math type and/or number.")
     print(" ")
